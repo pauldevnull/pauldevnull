@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useRef, useState } from "react";
+import { useRef, useState } from 'react';
 import { useOutsideAlerter } from "./use-outside-alerter";
 import { Initials } from "./icons";
 
