@@ -1,12 +1,12 @@
 import * as React from "react";
 import { useEffect } from "react";
 
-export function useOutsideAlerter(ref:React.MutableRefObject<any>, callback:() => void) {
+export function useOutsideAlerter(ref, callback) {
   useEffect(() => {
     /**
      * Alert if clicked on outside of element
      */
-    function handleClickOutside(event:MouseEvent) {
+    function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {
         // alert("You  outside of me!");
         callback();
