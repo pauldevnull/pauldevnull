@@ -7,7 +7,6 @@
     <list default="true" id="18399c83-218f-4773-9c8b-2936a13db193" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/use-outside-alerter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/use-outside-alerter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686168911133</updated>
-      <workItem from="1686168912221" duration="5819000" />
+      <workItem from="1686168912221" duration="5956000" />
     </task>
     <servers />
   </component>
