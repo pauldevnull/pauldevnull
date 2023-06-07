@@ -51,11 +51,11 @@ function App() {
 
 
       <div className="flex h-screen bg-white p-10 items-center justify-center">
-        <img src="../bitmoji/internet.png" width="25%" />
+        <img src="../bitmoji/internet.png" alt="/" width="25%" />
       </div>
 
       <div className="flex h-screen bg-[#fbfbfd] p-10 items-center justify-center">
-        <img src="../bitmoji/questions.png" width="25%" />
+        <img src="../bitmoji/questions.png" alt="/" width="25%" />
 
         <div>
           <img src="https://ghchart.rshah.org/pauldevnull" alt="/" />
@@ -63,20 +63,20 @@ function App() {
       </div>
 
       <div className="flex h-screen bg-white p-10 items-center justify-center">
-        <img src="../bitmoji/reading.png" width="25%" />
+        <img src="../bitmoji/reading.png" alt="/" width="25%" />
       </div>
 
       <div className="flex h-screen bg-black p-10 items-center justify-center">
-        <img src="../bitmoji/surfing-keyboard.png" width="25%" />
+        <img src="../bitmoji/surfing-keyboard.png" alt="/" width="25%" />
       </div>
       <div className="flex h-screen bg-white p-10 items-center justify-center">
-        <img src="../bitmoji/thinking.png" width="25%" />
+        <img src="../bitmoji/thinking.png" alt="/" width="25%" />
       </div>
       <div className="flex h-screen bg-black p-10 items-center justify-center">
-        <img src="../bitmoji/thoughts.png" width="25%" />
+        <img src="../bitmoji/thoughts.png" alt="/" width="25%" />
       </div>
       <div className="flex h-screen bg-white p-10 items-center justify-center">
-        <img src="../bitmoji/typing.png" width="25%" />
+        <img src="../bitmoji/typing.png" alt="/" width="25%" />
       </div>
     </div>
   );
