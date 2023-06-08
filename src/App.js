@@ -108,7 +108,7 @@ function App() {
           </div>
 
         </div>
-        <a href="https://github.com/pauldevnull" target="_blank" className="w-full hover:bg-blue-200">
+        <a href="https://github.com/pauldevnull" target="_blank" rel="noreferrer" className="w-full hover:bg-blue-200">
 
         <div style={{ display: 'flex', border: '1px solid black', width: '100%', justifyContent: 'center', alignItems: 'center', paddingLeft: '20px' }}>
             <Github width="100" />
