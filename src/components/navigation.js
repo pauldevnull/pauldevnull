@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useRef, useState } from 'react';
+import { Link } from 'react-scroll';
 import { useOutsideAlerter } from "./use-outside-alerter";
 import { Initials } from "./icons";
 
@@ -30,7 +31,7 @@ export function Navigation(props) {
 
 
     // <nav className="fixed w-screen bg-white border-gray-200 dark:bg-gray-900">
-    <nav ref={wrapperRef} className="fixed w-full text-xs font-normal font-sans leading-none h-12 bg-opacity-80 bg-gray-900 text-white flex items-center">
+    <nav ref={wrapperRef} className="fixed z-10 w-full text-xs font-normal font-sans leading-none h-12 bg-opacity-80 bg-gray-900 text-white flex items-center">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto bg-green-400">
         <a href="https://pauldevnull.dev/" className="flex items-center">
           {/*<img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo"/>*/}
@@ -58,16 +59,34 @@ export function Navigation(props) {
             {/*     aria-current="page">Home</a>*/}
             {/*</li>*/}
             <li>
-              <span className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</span>
+              <Link to="about" smooth={true} className="block cursor-pointer py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                About
+              </Link>
             </li>
             <li>
-              <span className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</span>
+              <Link to="experience" smooth={true} className="block cursor-pointer py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                Experience
+              </Link>
             </li>
             <li>
-              <span className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</span>
+              <Link to="code" smooth={true} className="block cursor-pointer py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                Code
+              </Link>
             </li>
             <li>
-              <span className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent bg-red-400">Contact</span>
+              <Link to="beliefs" smooth={true} className="block cursor-pointer py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                Beliefs
+              </Link>
+            </li>
+            <li>
+              <Link to="learning" smooth={true} className="block cursor-pointer py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                Learning
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true} className="block cursor-pointer py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent bg-red-400">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
